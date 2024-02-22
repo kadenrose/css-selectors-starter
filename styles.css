@@ -238,12 +238,8 @@ span{
 }
 
 /* ----- */
-/* 
-    TO DO:
-    select the unordered list in the navigation using the tag names and child/descendant selector
-*/
-/* ----- */
-{
+
+nav ul{
     display: block;
     list-style-type: none;
     padding: 0;
@@ -251,23 +247,15 @@ span{
 }
 
 /* ----- */
-/* 
-    TO DO:
-    select the list items in the navigation using the tag names and child/descendant selector
-*/
-/* ----- */
-{
+
+nav li{
     display: block;
     width: 100%;
 }
 
 /* ----- */
-/* 
-    TO DO:
-    select the anchor tags in the navigation using the tag names and child/descendant selectors
-*/
-/* ----- */
-{
+
+nav a{
     display: block;
     width: 90%;
     margin: 16px auto;
